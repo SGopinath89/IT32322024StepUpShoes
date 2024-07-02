@@ -2,31 +2,37 @@ import React from 'react'
 import { assets } from '../../assets/assets'
 import './Footer.css'
 
+
 const Footer = () => {
   return (
     <div className='footer' id='footer'>
-        
-        <div className="footer-content"> 
-         
-            <div className="left-footer">
-                <h2>StepUpShoes</h2>
-                <br />
-                <a href="About Us">About Us</a><br />
-                <a href="">Contact Us</a>
-            </div>
-            <div className="right-footer">
-                <h2>Join Us</h2>
-                <img src={assets.Facebook} alt="facebook" />
-                <img src={assets.whatsapp}/>
-                <img src={assets.youtube}/>
-            </div>
-            
+        <div className="footer_logo">
+           <img src={assets.logo} alt="" />
+           <p>StepUpShoes</p>
         </div>
-        <br />
-        <p>
+        <ul className='footer-links'>
+          <li>Company</li>
+          <li>Products</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+        <div className="footer-soocial-icons">
+          <div className="footer-icon-container">
+            <img src={assets.Facebook} alt="" />
+          </div>
+          <div className="footer-icon-container">
+            <img src={assets.whatsapp} alt="" />
+          </div>
+          <div className="footer-icon-container">
+            <img src={assets.youtube} alt="" />
+          </div>
+        </div>
+        <div className="footer-copyright">
+          <hr />
+          <p>
             Copyright @{new Date().getFullYear()}. All rights reserved.
-        </p>
-       
+          </p>
+        </div>   
     </div>
   )
 }

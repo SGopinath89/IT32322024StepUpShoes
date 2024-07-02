@@ -47,70 +47,37 @@ export const assets = {
 
 
 
-export const Women_list=[
+let data_product=[
 	{
 		id:1,
+		name:"nike",
 		image:girls1,
-		price:"RS.1200.00",
-		desc:"fdgvhjgh hgjkhj jkhkjhkjhkj hkjljblkjgkj kgjhggk jhlkj"
+		new_price:2500.00,
+		old_price:2800.00,
 	},
 	{
 		id:2,
+		name:"nike",
 		image:girls2,
-		price:"RS.2200.00"
+		new_price:2500.00,
+		old_price:2800.00,
 	},
 	{
+		id:3,
+		name:"nike",
 		image:girls3,
-		price:"RS.1200.00"
+		new_price:2500.00,
+		old_price:2800.00,
 	},
 	{
+		id:4,
+		name:"nike",
 		image:girls4,
-		price:"RS.1200.00"
-	},
-	{
-		image:girls5,
-		price:"RS.1200.00"
-	},
-	{
-		image:girls6,
-		price:"RS.1200.00"
-	},
-	{
-		image:girls7,
-		price:"RS.1200.00"
-	},
-	{
-		image:girls8,
-		price:"RS.1200.00"
+		new_price:2500.00,
+		old_price:2800.00,
 	}
+	
 ]
 
-export const Men_list=[
-	{
-		image:boys1,
-		price:"RS.1500.00"
-	},
-	{
-		image:boys2,
-		price:"RS.1500.00"
-	},
-	{
-		image:boys3,
-		price:"RS.1500.00"
-	}
-]
-export const Kids_list=[
-	{
-		image:boys1,
-		price:"RS.1500.00"
-	},
-	{
-		image:boys2,
-		price:"RS.1500.00"
-	},
-	{
-		image:boys3,
-		price:"RS.1500.00"
-	}
-]
+export default data_product;
 

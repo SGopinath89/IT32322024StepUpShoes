@@ -1,15 +1,16 @@
 import React from 'react'
 import './Home.css'
 import Header from '../../components/Header/Header'
-import Cate from '../../components/Category/Cate'
+import Popular from '../../components/Popular/Popular'
+import NewsLetter from '../../components/NewsLetter/NewsLetter'
 
 
 const Home = () => {
   return (
     <div>
       <Header></Header>
-      <Cate></Cate>
-      
+      <Popular></Popular>  
+      <NewsLetter></NewsLetter>
     </div>
   )
 }
