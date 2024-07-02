@@ -11,8 +11,6 @@ const CartItems = () => {
         <p>Product</p>
         <p>Title</p>
         <p>Price</p>
-        <p>Size</p>
-        <p>Quantity</p>
         <p>Total</p>
         <p>Remove</p>
       </div>
@@ -30,16 +28,16 @@ const CartItems = () => {
               <div className="item-title">{product.name}</div>
               <div className="item-price">${price.toFixed(2)}</div>
               <div className="item-size">{product.size}</div> {/* Add shoe size */}
-              <div className="item-quantity">{quantity}</div>
               <div className="item-total">${total.toFixed(2)}</div>
               <div className="item-remove">
-                <button onClick={() => removeFromCart(product.id)}>Remove</button>
+                <button onClick={() => removeFromCart(product.id)}>X</button>
               </div>
             </div>
           );
         }
         return null;
       })}
+      <button className='place-order'>Place an Order</button>
     </div>
   );
 };

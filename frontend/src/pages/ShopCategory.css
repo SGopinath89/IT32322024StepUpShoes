@@ -17,6 +17,7 @@
     margin: 20px 170px;
     display:  grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+   
 }
 .shopCategory_loadMore{
     display: flex;
@@ -59,4 +60,7 @@
 .item img{
     width: 200px;
     height: 200px;
+}
+.product-image{
+    background-color: pink;
 }
